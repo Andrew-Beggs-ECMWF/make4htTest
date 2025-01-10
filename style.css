@@ -17,6 +17,10 @@ Color scheme
   font-family: Helvetica Neue, Helvetica, Arial;
 }
 
+nav.TOC {
+    font-weight: bold;
+}
+
 /* the min width is calculated as:
  * font-size / ( number of viewport units / 100 )
  * it means 16 / (1.5/100)
