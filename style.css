@@ -56,10 +56,18 @@ body{
     display:grid;
     grid-template-columns: 15rem 1fr;
   }
-  main.main-content, div.footnotes{max-width:40rem; grid-column: 2}
+  main.main-content, div.footnotes{
+    max-width:40rem;
+    grid-column: 2;
+    grid-row: 2;
+  }
   nav.TOC{
-    grid-row:1;
+    grid-row:2;
     min-height:100vh;
+  }
+  header{
+    grid-row: 1;
+    grid-column-end: span 2;
   }
 }
 
@@ -101,6 +109,11 @@ nav.TOC a, nav.TOC a:visited{
   text-decoration:none;
 }
 
+header{
+  min-height: 2rem;
+  padding:0.5rem;
+}
+
 /* ************** */
 /* *** Colors *** */
 /* ************** */
@@ -123,9 +136,11 @@ nav.TOC span:hover, nav.TOC span:hover *{
   background-color:#437b9f;
 }
 
-
-
 figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource{
   border:1px solid #cec1aa; 
   background-color:#d5e3c6;
+}
+
+header{
+  background-color: #004876;
 }
