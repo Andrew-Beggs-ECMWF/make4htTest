@@ -90,7 +90,7 @@ figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figu
 }
 figure pre.listings{font-size: 1em;}
 
-.chapterToc, .sectionToc, .subsectionToc{margin:0;padding:0;}
+/* .chapterToc, .sectionToc, .subsectionToc{margin:0;padding:0;} */
 nav.TOC{
   padding:0.5rem;
   font-size:0; /* trick to remove vertical space above TOC entries */
